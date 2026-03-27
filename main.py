@@ -32,7 +32,7 @@ class Logger:
         self._log(text = text, level = "DEBUG")
 
     def warning(self, text: str):
-        self._log(text = text, level = "WARMING")
+        self._log(text = text, level = "WARNING")
     
     def critical(self, text: str):
         self._log(text = text, level = "CRITICAL")
